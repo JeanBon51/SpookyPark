@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d376af9819ed844aa021bbd1fcedd43, type: 3}
+  m_Name: CarBank
+  m_EditorClassIdentifier: 
+  _carEntries:
+  - carType: 0
+    prefab: {fileID: 3895775895331793596, guid: 2709dd2ae4a5b1d4d868edfc3c11dd8e, type: 3}
+  - carType: 1
+    prefab: {fileID: 7256332876315030154, guid: 23d2732eb7aea504ab2e64b5efa075b7, type: 3}
+  - carType: 2
+    prefab: {fileID: 4954386786458622994, guid: 93fdf71445133a946b59f3db787c58ce, type: 3}
+  - carType: 3
+    prefab: {fileID: 4954386786458622994, guid: 2ad6e6f3df38f7e4caf4a62e7fc5fa66, type: 3}
+  _obstacleEntries:
+  - obstacleName: Obstacle1
+    prefab: {fileID: 7243331503947950028, guid: ae53aaf2ba7d0d648aeb8605c8ead4ef, type: 3}

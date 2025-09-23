@@ -1,0 +1,276 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7922182389645353425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd4c5d02108346159439f7dd5b886a16, type: 3}
+  m_Name: Outline
+  m_EditorClassIdentifier: 
+  material: {fileID: 0}
+  materialInstanced: {fileID: 0}
+  isActive: 1
+  RenderingLayer: 128
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  renderQueue: 0
+  occlusion: 2
+  maskingStrategy: 0
+  color: {r: 0.54542804, g: 0.25471687, b: 1, a: 1}
+  enableOcclusion: 0
+  occludedColor: {r: 1, g: 0, b: 0, a: 1}
+  blendMode: 0
+  gpuInstancing: 0
+  extrusionMethod: 1
+  scaling: 0
+  width: 7.5
+  minWidth: 0
+  scaleWithResolution: 0
+  referenceResolution: 0
+  customResolution: 0
+  materialType: 0
+  customMaterial: {fileID: 0}
+--- !u!114 &-6823954204761871884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd4c5d02108346159439f7dd5b886a16, type: 3}
+  m_Name: Outline
+  m_EditorClassIdentifier: 
+  material: {fileID: 0}
+  materialInstanced: {fileID: 0}
+  isActive: 1
+  RenderingLayer: 64
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  renderQueue: 0
+  occlusion: 2
+  maskingStrategy: 0
+  color: {r: 0.93207544, g: 0.5469348, b: 0.7890089, a: 1}
+  enableOcclusion: 0
+  occludedColor: {r: 1, g: 0, b: 0, a: 1}
+  blendMode: 0
+  gpuInstancing: 0
+  extrusionMethod: 1
+  scaling: 0
+  width: 7.5
+  minWidth: 0
+  scaleWithResolution: 0
+  referenceResolution: 0
+  customResolution: 0
+  materialType: 0
+  customMaterial: {fileID: 0}
+--- !u!114 &-4947579086579489397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd4c5d02108346159439f7dd5b886a16, type: 3}
+  m_Name: Outline
+  m_EditorClassIdentifier: 
+  material: {fileID: 0}
+  materialInstanced: {fileID: 0}
+  isActive: 1
+  RenderingLayer: 16
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  renderQueue: 0
+  occlusion: 2
+  maskingStrategy: 0
+  color: {r: 0.6075471, g: 0.4855393, b: 0, a: 1}
+  enableOcclusion: 0
+  occludedColor: {r: 1, g: 0, b: 0, a: 1}
+  blendMode: 0
+  gpuInstancing: 0
+  extrusionMethod: 1
+  scaling: 0
+  width: 7.5
+  minWidth: 0
+  scaleWithResolution: 0
+  referenceResolution: 0
+  customResolution: 0
+  materialType: 0
+  customMaterial: {fileID: 0}
+--- !u!114 &-2593824584396000834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd4c5d02108346159439f7dd5b886a16, type: 3}
+  m_Name: Outline
+  m_EditorClassIdentifier: 
+  material: {fileID: 0}
+  materialInstanced: {fileID: 0}
+  isActive: 1
+  RenderingLayer: 4
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  renderQueue: 0
+  occlusion: 2
+  maskingStrategy: 0
+  color: {r: 0.17988603, g: 0.5849056, b: 0.17988603, a: 1}
+  enableOcclusion: 0
+  occludedColor: {r: 1, g: 0, b: 0, a: 1}
+  blendMode: 0
+  gpuInstancing: 0
+  extrusionMethod: 1
+  scaling: 0
+  width: 7.5
+  minWidth: 0
+  scaleWithResolution: 0
+  referenceResolution: 0
+  customResolution: 0
+  materialType: 0
+  customMaterial: {fileID: 0}
+--- !u!114 &-1243914673211115788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd4c5d02108346159439f7dd5b886a16, type: 3}
+  m_Name: Outline
+  m_EditorClassIdentifier: 
+  material: {fileID: 0}
+  materialInstanced: {fileID: 0}
+  isActive: 1
+  RenderingLayer: 32
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  renderQueue: 0
+  occlusion: 2
+  maskingStrategy: 0
+  color: {r: 0.7207546, g: 0.38835952, b: 0.21622631, a: 1}
+  enableOcclusion: 0
+  occludedColor: {r: 1, g: 0, b: 0, a: 1}
+  blendMode: 0
+  gpuInstancing: 0
+  extrusionMethod: 1
+  scaling: 0
+  width: 7.5
+  minWidth: 0
+  scaleWithResolution: 0
+  referenceResolution: 0
+  customResolution: 0
+  materialType: 0
+  customMaterial: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3d9423b8a94407596116cb6ff8e3e59, type: 3}
+  m_Name: Fast Outline Settings
+  m_EditorClassIdentifier: 
+  injectionPoint: 600
+  showInSceneView: 1
+  outlines:
+  - {fileID: 3736620611418251296}
+  - {fileID: -2593824584396000834}
+  - {fileID: 5187879230261096943}
+  - {fileID: -4947579086579489397}
+  - {fileID: -1243914673211115788}
+  - {fileID: -6823954204761871884}
+  - {fileID: -7922182389645353425}
+--- !u!114 &3736620611418251296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd4c5d02108346159439f7dd5b886a16, type: 3}
+  m_Name: Outline
+  m_EditorClassIdentifier: 
+  material: {fileID: 0}
+  materialInstanced: {fileID: 0}
+  isActive: 1
+  RenderingLayer: 2
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  renderQueue: 0
+  occlusion: 2
+  maskingStrategy: 0
+  color: {r: 0.3679244, g: 0.37783915, b: 1, a: 1}
+  enableOcclusion: 0
+  occludedColor: {r: 1, g: 0, b: 0, a: 1}
+  blendMode: 0
+  gpuInstancing: 0
+  extrusionMethod: 1
+  scaling: 0
+  width: 7.5
+  minWidth: 0
+  scaleWithResolution: 0
+  referenceResolution: 0
+  customResolution: 0
+  materialType: 0
+  customMaterial: {fileID: 0}
+--- !u!114 &5187879230261096943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd4c5d02108346159439f7dd5b886a16, type: 3}
+  m_Name: Outline
+  m_EditorClassIdentifier: 
+  material: {fileID: 0}
+  materialInstanced: {fileID: 0}
+  isActive: 1
+  RenderingLayer: 8
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  renderQueue: 0
+  occlusion: 2
+  maskingStrategy: 0
+  color: {r: 0.7056604, g: 0.029509379, b: 0.0039942465, a: 1}
+  enableOcclusion: 0
+  occludedColor: {r: 1, g: 0, b: 0, a: 1}
+  blendMode: 0
+  gpuInstancing: 0
+  extrusionMethod: 1
+  scaling: 0
+  width: 7.5
+  minWidth: 0
+  scaleWithResolution: 0
+  referenceResolution: 0
+  customResolution: 0
+  materialType: 0
+  customMaterial: {fileID: 0}
