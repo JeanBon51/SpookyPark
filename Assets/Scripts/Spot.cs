@@ -20,8 +20,6 @@ public class Spot : MonoBehaviour
     [SerializeField] private ColorPalette _palette;
     [SerializeField] private MeshRenderer[] _meshs;
     [SerializeField] private Transform _startPos1;
-    [SerializeField] private Transform _posJump;
-    [SerializeField] private Transform render;
     [SerializeField] private Vector3 _offset;
     [SerializeField] private float _stickmanSpeed;
     [SerializeField] private PassengerGroupData _forcePassenger;

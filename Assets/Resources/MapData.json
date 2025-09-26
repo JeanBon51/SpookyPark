@@ -693,9 +693,9 @@
       {
         "carType": "Car3",
         "localPosition": [
-          8.57,
+          3.87999964,
           0.0,
-          12.44
+          24.46
         ],
         "localRotation": [
           0.0,
@@ -729,9 +729,9 @@
       {
         "carType": "Car3",
         "localPosition": [
-          5.32,
+          0.63,
           0.0,
-          12.44
+          24.46
         ],
         "localRotation": [
           0.0,
@@ -765,13 +765,13 @@
       {
         "carType": "Car3",
         "localPosition": [
-          3.98,
+          -4.47000027,
           0.0,
-          -5.4
+          -1.40999985
         ],
         "localRotation": [
           0.0,
-          270.0,
+          89.9996643,
           0.0
         ],
         "passengerData": {
@@ -801,9 +801,9 @@
       {
         "carType": "Car3",
         "localPosition": [
-          -3.7,
+          0.44,
           0.0,
-          15.86
+          42.29
         ],
         "localRotation": [
           0.0,
@@ -837,13 +837,13 @@
       {
         "carType": "Car3",
         "localPosition": [
-          2.21,
+          -6.24,
           0.0,
-          -12.5
+          -8.51
         ],
         "localRotation": [
           0.0,
-          270.0,
+          89.9996643,
           0.0
         ],
         "passengerData": {
@@ -873,13 +873,13 @@
       {
         "carType": "Car3",
         "localPosition": [
-          3.9,
+          -5.3,
           0.0,
-          -1.76
+          2.0
         ],
         "localRotation": [
           0.0,
-          270.0,
+          89.9996643,
           0.0
         ],
         "passengerData": {
@@ -909,9 +909,9 @@
       {
         "carType": "Car3",
         "localPosition": [
-          -4.61,
+          6.07,
           0.0,
-          -11.47
+          -9.21
         ],
         "localRotation": [
           0.0,
@@ -945,9 +945,9 @@
       {
         "carType": "Car3",
         "localPosition": [
-          -23.04,
+          -6.0,
           0.69,
-          7.18
+          38.0
         ],
         "localRotation": [
           0.0,
@@ -981,13 +981,13 @@
       {
         "carType": "Car4",
         "localPosition": [
-          2.06,
+          -6.39000034,
           0.0,
-          -9.11
+          -5.11999941
         ],
         "localRotation": [
           0.0,
-          270.0,
+          89.9996643,
           0.0
         ],
         "passengerData": {
@@ -1022,9 +1022,9 @@
       {
         "carType": "Car4",
         "localPosition": [
-          -4.71,
+          2.65,
           0.0,
-          1.88
+          5.02
         ],
         "localRotation": [
           0.0,
@@ -1063,9 +1063,9 @@
       {
         "carType": "Car4",
         "localPosition": [
-          -1.51,
+          5.85000038,
           0.0,
-          1.9
+          5.04
         ],
         "localRotation": [
           0.0,
@@ -1104,9 +1104,9 @@
       {
         "carType": "Car4",
         "localPosition": [
-          -3.27,
+          1.98,
           0.0,
-          9.25
+          34.69
         ],
         "localRotation": [
           0.0,
@@ -1145,13 +1145,13 @@
       {
         "carType": "Car2",
         "localPosition": [
-          3.45,
+          -5.0,
           0.0,
-          1.45
+          5.44000053
         ],
         "localRotation": [
           0.0,
-          270.0,
+          89.9996643,
           0.0
         ],
         "passengerData": {
@@ -1176,9 +1176,9 @@
       {
         "carType": "Car2",
         "localPosition": [
-          -4.31,
+          0.940000057,
           0.0,
-          12.69
+          38.1299973
         ],
         "localRotation": [
           0.0,
@@ -1207,9 +1207,9 @@
       {
         "carType": "Car2",
         "localPosition": [
-          0.12,
+          2.42,
           0.0,
-          19.49
+          30.89
         ],
         "localRotation": [
           0.0,
@@ -1238,13 +1238,13 @@
       {
         "carType": "Car2",
         "localPosition": [
-          4.4,
+          -4.05,
           0.0,
-          4.69
+          8.68
         ],
         "localRotation": [
           0.0,
-          270.0,
+          89.9996643,
           0.0
         ],
         "passengerData": {

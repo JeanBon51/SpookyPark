@@ -131,7 +131,7 @@ public class Car : MonoBehaviour {
 			int index = i - 1;
 			CarPart cp = this._carParts[i];
 			if (isInRuntime) cp.transform.SetParent(carContainer);
-			List<Material> materials = new List<Material>() { cp.meshRenderer.sharedMaterials[0] };
+			List<Material> materials = new List<Material>() {};
 
 			cp.eColor = carData.carPartColors[index == -1 ? 0 : index];
 
@@ -171,7 +171,7 @@ public class Car : MonoBehaviour {
 		this._isHidden = false;
 		this._tryToUnveil = false;
 		foreach (CarPart cp in this.carParts) {
-			List<Material> materials = new List<Material>() { cp.meshRenderer.sharedMaterials[0] };
+			List<Material> materials = new List<Material>() {};
 			materials.AddRange(this._colorPalette.colorDict[cp.eColor].materials);
 			cp.meshRenderer.SetSharedMaterials(materials);
 			if (this._firstUnveilPass == false) cp.transform.DOScale(1.2f, .2f).SetLoops(2, LoopType.Yoyo);
