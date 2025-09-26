@@ -132,7 +132,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3895775895331793596, guid: 2709dd2ae4a5b1d4d868edfc3c11dd8e, type: 3}
       propertyPath: _carParts.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3895775895331793596, guid: 2709dd2ae4a5b1d4d868edfc3c11dd8e, type: 3}
       propertyPath: _carSeats.Array.size
@@ -148,6 +148,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3895775895331793596, guid: 2709dd2ae4a5b1d4d868edfc3c11dd8e, type: 3}
       propertyPath: _carParts.Array.data[1]
+      value: 
+      objectReference: {fileID: 5374121832093856760}
+    - target: {fileID: 3895775895331793596, guid: 2709dd2ae4a5b1d4d868edfc3c11dd8e, type: 3}
+      propertyPath: _carParts.Array.data[2]
       value: 
       objectReference: {fileID: 6428211203250745532}
     - target: {fileID: 3895775895331793596, guid: 2709dd2ae4a5b1d4d868edfc3c11dd8e, type: 3}
@@ -312,3 +316,14 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8831327562047941110, guid: 2709dd2ae4a5b1d4d868edfc3c11dd8e, type: 3}
   m_PrefabInstance: {fileID: 5954673256605227062}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &5374121832093856760 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1745013541961280462, guid: 2709dd2ae4a5b1d4d868edfc3c11dd8e, type: 3}
+  m_PrefabInstance: {fileID: 5954673256605227062}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acda0804206258e46bd80bbddf411a38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

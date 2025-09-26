@@ -53,6 +53,7 @@ MonoBehaviour:
   _colorPalette: {fileID: 11400000, guid: 9b12a9ab1a862074e88ff70edef5fe88, type: 2}
   _carParts:
   - {fileID: 195600116054535281}
+  - {fileID: 1745013541961280462}
   _speed: 25
   _maxSpeed: 36
   _offsetCar: 1.8
@@ -359,6 +360,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a820afe8ead4feb41854cecedacb4164, type: 3}
+--- !u!114 &1745013541961280462 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8054090643546771007, guid: a820afe8ead4feb41854cecedacb4164, type: 3}
+  m_PrefabInstance: {fileID: 8643085356637234673}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acda0804206258e46bd80bbddf411a38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &4121290174123797769 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5675568819377719544, guid: a820afe8ead4feb41854cecedacb4164, type: 3}

@@ -42,12 +42,8 @@ public class CarPart : MonoBehaviour {
 		this._isInitiated = true;
 		this._meshRenderer.SetSharedMaterials(materials);
 		this._meshRenderer.renderingLayerMask = isHiden ? 1 : GetLayer(eColor) + 1;
-		if (isHiden == false && isInRuntime)
-		{
+		if (isHiden == false && isInRuntime) {
 			this._meshRenderer.renderingLayerMask = 1;
-			for (int j = 1; j < 4; j++) {
-				this._meshRenderer.materials[j].color = this._meshRenderer.materials[j].color * 0.85f;
-			}
 		}
 	}
 
@@ -57,28 +53,20 @@ public class CarPart : MonoBehaviour {
 		{
 			case ObjType.None:
 				return 0;
-				break;
 			case ObjType.Color_1:
 				return 2;
-				break;
 			case ObjType.Color_2:
 				return 4;
-				break;
 			case ObjType.Color_3:
 				return 8;
-				break;
 			case ObjType.Color_4:
 				return 16;
-				break;
 			case ObjType.Color_5:
 				return 32;
-				break;
 			case ObjType.Color_6:
 				return 64;
-				break;
 			case ObjType.Color_7:
 				return 128;
-				break;
 			default:
 				return 0;
 		}
