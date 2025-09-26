@@ -47,7 +47,6 @@ public class Obj : MonoBehaviour
 			this._meshRenderer.material = this._palette.hidenMaterials[0];
 		}else {
 			this._meshRenderer.material = this._palette.colorDict[type].materials[0];
-			if (isInRuntime) this._meshRenderer.material.color = this._meshRenderer.material.color * 0.85f;
 		}
 		this._spriteHidden.enabled = isHidden;
 		this._spritePivot.transform.rotation = Quaternion.Euler(this._spritePivot.transform.rotation.eulerAngles.x,0,this._spritePivot.transform.rotation.z);

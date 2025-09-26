@@ -137,8 +137,8 @@ public class Board : MonoBehaviour {
 	}
 
 	//--- Traffic flow ---
-	public void TryMoveCar(CarPart carPart, Vector2 dragVector) {
-		bool move = carPart.TryMove(dragVector, this._carMoveIndex);
+	public void TryMoveCar(CarPart carPart) {
+		bool move = carPart.TryMove(this._carMoveIndex);
 		if (move)
 		{
 			this._carMoveIndex += 1;

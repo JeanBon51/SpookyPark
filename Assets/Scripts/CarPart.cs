@@ -91,7 +91,7 @@ public class CarPart : MonoBehaviour {
 		}
 	}
 
-	public bool TryMove(Vector2 dragVector, int moveIndex) {
+	public bool TryMove(int moveIndex) {
 		if (this._carRef.stepMoving != StepMoving.onPark) return false;
 		else this._carRef.TryMove(true, moveIndex);
 

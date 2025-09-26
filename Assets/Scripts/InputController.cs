@@ -45,27 +45,11 @@ public class InputController : MonoBehaviour {
 			if (this._onClick) {
 				this._currCarPart = this.RaycastCar();
 				if (this._currCarPart) {
-					this._board.TryMoveCar(this._currCarPart, Vector2.zero);
+					this._board.TryMoveCar(this._currCarPart);
 					if (this._tutorialPanel != null) this._tutorialPanel.NextStep();
 				}
 				this._onClick = false;
 			}
-			//else if (this._onRelease) {
-			//	this._currCarPart = null;
-			//	this._onRelease = false;
-			//	this._onHold = false;
-			//}
-			//else if (this._onHold && this._currCarPart != null) {
-			//	this.CheckSwipe();
-			//	this._onHold = false;
-			//}
-		}
-	}
-
-	private void CheckSwipe() {
-		Vector3 dragVector = Input.mousePosition - this._mouseStartPos;
-		if (dragVector.magnitude > this._minDistanceToSwipe) {
-			this._currCarPart = null;
 		}
 	}
 
@@ -73,7 +57,7 @@ public class InputController : MonoBehaviour {
 		RaycastHit hit;
 		Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 
-		if (Physics.Raycast(ray, out hit, 10000.0f, this._inputLayer) && hit.collider.gameObject.TryGetComponent(out CarPart carPart) && carPart.car.tryToUnveil == false) {
+		if (Physics.Raycast(ray, out hit, 10000.0f, this._inputLayer) && hit.collider.gameObject.TryGetComponent(out CarPart carPart) && carPart.car.isHidden == false) {
 			return carPart;
 		}
 		return null;

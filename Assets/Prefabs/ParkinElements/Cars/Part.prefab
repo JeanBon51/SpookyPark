@@ -109,6 +109,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 9b6c8b90548b3bf4184fc493efbb4701, type: 3}
   m_PrefabInstance: {fileID: 1140158069690217740}
   m_PrefabAsset: {fileID: 0}
+--- !u!23 &1734785364038297992 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: 9b6c8b90548b3bf4184fc493efbb4701, type: 3}
+  m_PrefabInstance: {fileID: 1140158069690217740}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8787806852864998333
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -133,6 +138,10 @@ PrefabInstance:
       propertyPath: isHeadCart
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1599181394098386306, guid: 08a2ab2cdc4e1a349824647c8bd84860, type: 3}
+      propertyPath: _meshRenderer
+      value: 
+      objectReference: {fileID: 1734785364038297992}
     - target: {fileID: 1599181394098386306, guid: 08a2ab2cdc4e1a349824647c8bd84860, type: 3}
       propertyPath: _carSeats.Array.size
       value: 2
