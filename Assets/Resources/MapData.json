@@ -683,7 +683,7 @@
   "3_MapData": {
     "id": "3",
     "splineId": 8,
-    "cameraFOV": 41.0,
+    "cameraFOV": 23.5416336,
     "parkingPos": [
       0.0,
       0.0,
@@ -693,9 +693,9 @@
       {
         "carType": "Car3",
         "localPosition": [
-          6.99999952,
+          8.57,
           0.0,
-          10.25
+          12.44
         ],
         "localRotation": [
           0.0,
@@ -719,6 +719,7 @@
           ]
         },
         "carPartColors": [
+          "Color_2",
           "Color_2",
           "Color_2",
           "Color_2"
@@ -728,9 +729,9 @@
       {
         "carType": "Car3",
         "localPosition": [
-          3.74999952,
+          5.32,
           0.0,
-          10.25
+          12.44
         ],
         "localRotation": [
           0.0,
@@ -756,6 +757,7 @@
         "carPartColors": [
           "Color_1",
           "Color_1",
+          "Color_1",
           "Color_1"
         ],
         "isHidden": false
@@ -763,9 +765,9 @@
       {
         "carType": "Car3",
         "localPosition": [
-          -2.00000048,
+          3.98,
           0.0,
-          -1.24999976
+          -5.4
         ],
         "localRotation": [
           0.0,
@@ -791,6 +793,7 @@
         "carPartColors": [
           "Color_1",
           "Color_1",
+          "Color_1",
           "Color_1"
         ],
         "isHidden": false
@@ -798,9 +801,9 @@
       {
         "carType": "Car3",
         "localPosition": [
-          -5.500003,
+          -3.7,
           0.0,
-          12.2500019
+          15.86
         ],
         "localRotation": [
           0.0,
@@ -824,6 +827,7 @@
           ]
         },
         "carPartColors": [
+          "Color_2",
           "Color_2",
           "Color_2",
           "Color_2"
@@ -833,9 +837,9 @@
       {
         "carType": "Car3",
         "localPosition": [
-          -2.0,
+          2.21,
           0.0,
-          -4.49999952
+          -12.5
         ],
         "localRotation": [
           0.0,
@@ -859,6 +863,7 @@
           ]
         },
         "carPartColors": [
+          "Color_4",
           "Color_4",
           "Color_4",
           "Color_4"
@@ -868,9 +873,9 @@
       {
         "carType": "Car3",
         "localPosition": [
-          2.49999952,
+          3.9,
           0.0,
-          2.00000143
+          -1.76
         ],
         "localRotation": [
           0.0,
@@ -896,6 +901,7 @@
         "carPartColors": [
           "Color_3",
           "Color_3",
+          "Color_3",
           "Color_3"
         ],
         "isHidden": false
@@ -903,9 +909,9 @@
       {
         "carType": "Car3",
         "localPosition": [
-          7.00000143,
+          -4.61,
           0.0,
-          0.250000477
+          -11.47
         ],
         "localRotation": [
           0.0,
@@ -931,6 +937,7 @@
         "carPartColors": [
           "Color_4",
           "Color_4",
+          "Color_4",
           "Color_4"
         ],
         "isHidden": false
@@ -938,9 +945,9 @@
       {
         "carType": "Car3",
         "localPosition": [
-          -6.99999762,
-          0.0,
-          7.250002
+          -23.04,
+          0.69,
+          7.18
         ],
         "localRotation": [
           0.0,
@@ -966,6 +973,7 @@
         "carPartColors": [
           "Color_3",
           "Color_3",
+          "Color_3",
           "Color_3"
         ],
         "isHidden": false
@@ -973,9 +981,9 @@
       {
         "carType": "Car4",
         "localPosition": [
-          5.250001,
+          2.06,
           0.0,
-          -4.499999
+          -9.11
         ],
         "localRotation": [
           0.0,
@@ -1006,6 +1014,7 @@
           "Color_3",
           "Color_3",
           "Color_3",
+          "Color_3",
           "Color_3"
         ],
         "isHidden": false
@@ -1013,9 +1022,9 @@
       {
         "carType": "Car4",
         "localPosition": [
-          -6.99999952,
+          -4.71,
           0.0,
-          -2.50000048
+          1.88
         ],
         "localRotation": [
           0.0,
@@ -1043,6 +1052,7 @@
           ]
         },
         "carPartColors": [
+          "Color_1",
           "Color_1",
           "Color_1",
           "Color_1",
@@ -1053,9 +1063,9 @@
       {
         "carType": "Car4",
         "localPosition": [
-          -1.74999952,
+          -1.51,
           0.0,
-          3.74999952
+          1.9
         ],
         "localRotation": [
           0.0,
@@ -1086,6 +1096,7 @@
           "Color_2",
           "Color_2",
           "Color_2",
+          "Color_2",
           "Color_2"
         ],
         "isHidden": true
@@ -1093,7 +1104,7 @@
       {
         "carType": "Car4",
         "localPosition": [
-          -1.74999952,
+          -3.27,
           0.0,
           9.25
         ],
@@ -1126,6 +1137,7 @@
           "Color_4",
           "Color_4",
           "Color_4",
+          "Color_4",
           "Color_4"
         ],
         "isHidden": false
@@ -1133,9 +1145,9 @@
       {
         "carType": "Car2",
         "localPosition": [
-          3.25000048,
+          3.45,
           0.0,
-          5.50000048
+          1.45
         ],
         "localRotation": [
           0.0,
@@ -1156,6 +1168,7 @@
         },
         "carPartColors": [
           "Color_4",
+          "Color_4",
           "Color_4"
         ],
         "isHidden": false
@@ -1163,9 +1176,9 @@
       {
         "carType": "Car2",
         "localPosition": [
-          -0.250000477,
+          -4.31,
           0.0,
-          12.25
+          12.69
         ],
         "localRotation": [
           0.0,
@@ -1186,6 +1199,7 @@
         },
         "carPartColors": [
           "Color_3",
+          "Color_3",
           "Color_3"
         ],
         "isHidden": false
@@ -1193,9 +1207,9 @@
       {
         "carType": "Car2",
         "localPosition": [
-          3.25000119,
+          0.12,
           0.0,
-          -1.25
+          19.49
         ],
         "localRotation": [
           0.0,
@@ -1216,6 +1230,7 @@
         },
         "carPartColors": [
           "Color_2",
+          "Color_2",
           "Color_2"
         ],
         "isHidden": true
@@ -1223,9 +1238,9 @@
       {
         "carType": "Car2",
         "localPosition": [
-          7.50000048,
+          4.4,
           0.0,
-          5.50000143
+          4.69
         ],
         "localRotation": [
           0.0,
@@ -1245,6 +1260,7 @@
           ]
         },
         "carPartColors": [
+          "Color_1",
           "Color_1",
           "Color_1"
         ],

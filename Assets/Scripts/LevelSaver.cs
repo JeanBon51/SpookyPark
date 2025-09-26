@@ -93,7 +93,7 @@ public class LevelSaver : MonoBehaviour {
 		MapData mapData = MapDataJsonInterface.GetMap(this._levelIndex.ToString());
 		this._board.parking.transform.position = new Vector3(mapData.parkingPos[0], mapData.parkingPos[1], mapData.parkingPos[2]);
 		this._associatedSplineId = mapData.splineId;
-		this._camera.fieldOfView = mapData.cameraFOV;
+		//this._camera.fieldOfView = mapData.cameraFOV;
 
 #if UNITY_EDITOR
 		ConvertToPrefabInstanceSettings settings = new ConvertToPrefabInstanceSettings();

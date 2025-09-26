@@ -24,7 +24,7 @@ public class Map : MonoBehaviour{
     {
         this._board ??= this.GetComponentInChildren<Board>();
 		this._board.Init(levelIndex, seed);
-        this.SetMaterials();
+        //this.SetMaterials();
     }
 
     private void SetMaterials()
